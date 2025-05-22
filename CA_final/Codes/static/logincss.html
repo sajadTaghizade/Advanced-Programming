@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #ffffff;
+      padding: 2em;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+    }
+
+    h1 {
+      color: #333333;
+    }
+
+    form input[type=text],
+    form input[type=password],
+    form input[type=submit] {
+      width: 94%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+    }
+
+    form input[type=submit] {
+      background-color: #5cb85c;
+      color: white;
+      border-color: #4cae4c;
+    }
+
+    form input[type=submit]:hover {
+      background-color: #449d44;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-container">
+    <h1>AP HTTP</h1>
+    <section class="login-section">
+      <h2>Login</h2>
+      <form action="/login" method="post">
+        <input name="username" type="text" placeholder="Username">
+        <input name="password" type="password" placeholder="Password">
+        <input type="submit" value="Login">
+      </form>
+    </section>
+  </div>
+</body>
+
+</html>

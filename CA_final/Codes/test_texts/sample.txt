@@ -1,0 +1,42 @@
+sdhfioasdhfhf
+post login ? id 810100001 password ramtung
+POST loooooooogin ? id 810100001 password ramtung
+GET login ? id 810100001 password ramtung
+POST login ? id 810100001
+POST login ? password ramtung
+POST login ? id 810199999 password id
+POST login ? id 810199990 password idk
+POST login password UT_account id 0
+POST login ? password UT_account id 0
+POST course_offer ? course_id 1 professor_id 810100001 capacity 70 time Sunday:3-5 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 1 professor_id 810100001 capacity 70 time Sunday:4-9 exam_date 1403/4/4 class_number 1
+POST course_offer ? course_id 2 professor_id 810100002 capacity 70 time Sunday:13-15 exam_date 1403/4/10 class_number 4
+POST course_offer ? course_id 2 professor_id 810100001 capacity 100 time Sunday:13-15 exam_date 1403/4/10 class_number 1
+POST post ? title "post from UT account" message "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+POST login ? id 810102999 password blabla
+POST logout ? 
+POST logout ? 
+POST login ? id 810102999 password blabla
+GET notification ? 
+GET notification ? 
+POST connect ? id 810199990
+POST connect ? id 810199999
+PUT my_courses ? id 1
+PUT my_courses ? id 2
+GET my_courses ?
+DELETE my_courses ? id 2
+DELETE my_courses ? id 1
+GET my_courses ?
+POST logout ?
+POST login ? id 810199999 password idk
+GET courses ? 
+GET courses ? id 1
+GET courses ? id 3
+GET notification ?
+PUT my_courses ? id 1
+PUT my_courses ? id 2
+GET personal_page ? id 810199999
+GET personal_page ? id 810102999
+GET personal_page ? id 0
+GET post ? id 0 post_id 1
+POST logout ?

@@ -1,0 +1,55 @@
+student
+POST login ? id 810102612 password ImtheproblemItsme 
+POST login ? id 810102342 password meoow 
+
+//osatd
+POST login ? id 810420432 password halalalaylalalay 
+
+//utacc
+POST login ? id 0 password UT_account 
+
+POST post ? title "hi" message "efse"
+POST post ? title "hillll" message "545vdxdxv543"
+POST post ? title "hfeafai" message "545vdxdxv543"
+
+POST logout ?
+
+DELETE post ? id 1
+DELETE post ? id 2
+
+POST connect ? id 810102612
+POST connect ? id 0
+POST connect ? id 810102342
+POST connect ? id 810420432
+
+
+POST course_offer ? course_id 1 professor_id 810420432 capacity 70 time sunday:13-15 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 1 professor_id 810420432 capacity 70 time sunday:13-15 exam_date 1403/4/4 class_number 2\
+POST course_offer ? course_id 1 professor_id 810420432 capacity 70f time sunday:13-15 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 1a professor_id 810420432 capacity 70 time sunday:13-15 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 1 professor_id 810102342 capacity 70 time sunday:13-15 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 1 professor_id 810102380 capacity 70 time sunday:13-15 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 4 professor_id 810102380 capacity 70 time sunday:13-15 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 1 professor_id 810420432 capacity 70 time suukhkh:13-14 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 1 professor_id 810420432 capacity 70 time suukhkh:19-20 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 1 professor_id 810420432 capacity 70 time suukhkh:19-21 exam_date 1403/4/4 class_number 2
+POST course_offer ? course_id 1 professor_id 810420432 capacity 70 time suukhkh:18-24 exam_date 1403/4/4 class_number 2
+
+GET notification ?
+GET courses ? id 1
+GET courses ? 
+GET courses ? id aa
+
+POST login ? id 810102342 password meoow 
+
+GET post ? id 810420432 post_id 1
+GET post ? id 810102612 post_id 1
+GET post ? id 810102616 post_id 2
+
+GET personal_page ? id 810102612
+GET personal_page ? id 810420432
+
+PUT my_courses ? id 1
+PUT ss ? id 1
+PUT course_offer ? id 1
+

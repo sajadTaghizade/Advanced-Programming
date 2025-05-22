@@ -1,0 +1,3 @@
+cid,name,credit,prerequisite,majors_id
+1,Advanced Programming,3,2,1;2
+2,Operating System,3,5,1
